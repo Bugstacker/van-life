@@ -1,0 +1,39 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  margin: 0;
+  color: black;
+  font-family: 'Inter', sans-serif;
+  background: #FFF7ED;
+}
+
+/* Remove scroll bar */
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: transform .1s ease-in;
+}
+
+.about-card--cta:hover,
+.home-cta:hover {
+  transform: translate(1px, 1px);
+}
+
+img {
+  width: 100%;
+}

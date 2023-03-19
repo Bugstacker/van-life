@@ -1,0 +1,38 @@
+.header {
+  display: flex;
+  padding: 2.25em 1.625em;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-weight: 900;
+  font-size: 1.56rem;
+}
+
+.header > nav {
+  display: flex;
+  gap: .8em;
+}
+
+.header > a,
+.header > nav > a {
+  position: relative;
+}
+
+.header > a:hover::after,
+.header > nav > a:hover::after {
+  content: "";
+  position: absolute;
+  background: #675555;
+  height: .2em;
+  width: 80%;
+  top: -.2em;
+  left: 0;
+  border-radius: 10px;
+}
+
+.header > a:active,
+.header > nav > a:active {
+  color: #675555;
+}

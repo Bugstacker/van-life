@@ -1,0 +1,35 @@
+
+.about-page {
+  padding-inline: 1.625em;
+  
+}
+
+.about-title {
+  margin-top: 3em;
+  font-weight: 700;
+}
+
+.about-page > p {
+  margin-top: 2em;
+}
+
+.about-card {
+  margin-block: 3.4em;
+  background-color: #FFCC8D;
+  border-radius: 5px;
+  padding: 2em 2.2em;
+  display: flex;
+  place-content: start space-around;
+  flex-direction: column;
+}
+
+.about-card--cta {
+  background: #161616;
+  border-radius: 10px;
+  color: #fff;
+  font-weight: 700;
+  padding: .75em 1.375em;
+  margin-top: 2.3em;
+  align-self: start;
+}
+
